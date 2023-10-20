@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+required::after {
+    content: " 必須";
+    color: honeydew;
+    background: #cc0000; 
+    border-radius: 0.5em;
+    vertical-align: middle;
+  }
+  th{
+    background-color: hotpink;
+    text-align: left;
+    width: 20em;
+  }
+  td{
+    background-color:lavender;
+    width: 35em;
+  }
+  supplement{
+    font-size: 0.5em;
+  }
+  button{
+    text-align: center;
+    width: 15em;
+  }
+
+
