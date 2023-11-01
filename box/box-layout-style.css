@@ -1,0 +1,46 @@
+@charset "UTF-8";
+h1{
+    font-family: Open Baskerville;
+    text-align: center;
+}
+h2{
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    padding: 10px;
+    object-fit: contain;
+    text-align: center;
+
+}
+.item{
+    width: 25%;
+    /*height: 500px;*/
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: hotpink;
+    text-align: center;
+}
+a{
+    border-radius: 30px;
+    margin: 0 auto;
+    padding:10px;
+    background-color:honeydew;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.A{
+    display: flex;
+}
+.R{
+    text-align: center;
+}
+p{
+    width: 90%;
+    padding: 20px;
+}
