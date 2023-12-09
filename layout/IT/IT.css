@@ -1,0 +1,28 @@
+@charset "UTF-8";
+h1{
+    text-align: center;
+}
+caption{
+    text-align: center;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+li,td{
+    font-size:20px;
+}
+table,th,td{
+    border: solid 1px Black;
+    border-collapse:collapse;
+}
+th,td{
+    padding: 10px;
+}
+ul{
+    margin: 50px;
+}
+table{
+    margin-bottom: 20px;
+}
