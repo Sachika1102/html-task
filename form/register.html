@@ -10,7 +10,7 @@
 
 <body>
     <p>必要事項を入力の上、送信ボタンを押してください。</p>
-    <form action="#" method="get" enctype="multipart/form-data"></form>
+    <form>action="#" method="get" enctype="multipart/form-data">
     <table>
         <tr>
             <th>ID<small>(メールアドレス)<required></required></small></th>
@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <th>携帯電話番号<small>(ハイフンなし)</small><reqired></reqired></th>
-            <td><input type="tel"></td><br>
+            <td><input type="tel" name="tel"></td><br>
         </tr>
         <tr>
             <th>学科・学年<required></required></th>
@@ -60,7 +60,7 @@
         <tr>
             <th>お得な情報・クーポン<required></required></th>
             <td><label><input type="radio">受け取る</label>
-         <label><input type="radio">受け取らない</label></td><br>
+         <label><input type="radio" name="radio">受け取らない</label></td><br>
     </tr>
     <tr>
         <th>ご意見・ご要望<small>(200字以内でご記入ください)</small></th><br>
@@ -72,9 +72,7 @@
     <button type="reset">入力内容をクリアする</button>
     <!--サーバにデータを送信するためのボタン-->
     <button type="submit">送信</button>
-    
-
+    </form>
 
 </body>
-
 </html>
