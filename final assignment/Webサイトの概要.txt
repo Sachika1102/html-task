@@ -1,0 +1,3 @@
+index.html、Character.html、Movie.html、Favorite.htmlに画面遷移しました。
+Character.htmlは画像をクリックすると各キャラクターの紹介ページに飛べるようにしました。
+Movie.htmlはYouTubeに飛べるようにしました。
