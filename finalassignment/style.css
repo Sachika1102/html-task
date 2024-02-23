@@ -202,5 +202,42 @@ body {
 #movie {
   margin-right: 25px;
 }
+.link1 {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  background: transparent;
+  margin-bottom: 90px;
+  text-align: center;
+  line-height: 60px;
+  border: 2px solid lavender;
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  transition: .3s;
+}
+.link1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 500px;
+  right: -60px;
+  z-index: -1;
+  border-right: 60px solid transparent;
+  border-bottom: 60px solid lavender;
+  transform: translateX(-100%);
+  transition: transform ease .3s;
+}
+.link1:hover {
+  color: #fff;
+}
+.link1:hover::before {
+  transform: translateX(0);
+}
+.botan{
+  display: flex;
+  color: white;
+}
 
 

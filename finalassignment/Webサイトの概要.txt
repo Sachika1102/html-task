@@ -1,4 +1,4 @@
 index.html、Character.html、Movie.html、Favorite.htmlのファイルを作りました。
-Character.htmlはArduohi.html、Character.html 、favorite.html、 gaosyun.html、 gyokuyouhi.html 、index.html 、jinsi.html、 leashhi.html、 maomao.html、 rakan.html 、rifahi.html 、rihaku.html、 rouranhi.html 、 suirei.html、 syaoran.htmlをページ内遷移しました。
+index.htmlにページ内遷移をつけました。
 Movie.htmlはYouTubeに飛べるようにしました。
-疑似クラスはCharacter.html、Movie.html、Favorite.htmlで使用しました。
+マウスホバー時にアニメーションをつけました。
