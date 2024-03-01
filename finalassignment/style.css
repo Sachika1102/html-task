@@ -202,6 +202,10 @@ body {
 #movie {
   margin-right: 25px;
 }
+#index.html
+.icon{
+  display: flex;
+}
 .link1 {
   color: black;
   font-size: 16px;
@@ -210,7 +214,7 @@ body {
   margin-bottom: 90px;
   text-align: center;
   line-height: 60px;
-  border: 2px solid lavender;
+  border: 2px solid hotpink;
   position: relative;
   z-index: 1;
   display: block;
@@ -225,7 +229,7 @@ body {
   right: -60px;
   z-index: -1;
   border-right: 60px solid transparent;
-  border-bottom: 60px solid lavender;
+  border-bottom: 60px solid black;
   transform: translateX(-100%);
   transition: transform ease .3s;
 }
